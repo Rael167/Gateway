@@ -9,7 +9,7 @@ app.use((req, res, next) => {
     next();
 });
 
-// Configurar el proxy para redirigir todas las solicitudes a http://localhost:4040
+// Configurar el proxy para redirigir todas las solicitudes a http://localhost:3000
 app.use('/', createProxyMiddleware({
     target: 'http://localhost:3000',
     changeOrigin: true,
