@@ -8,5 +8,3 @@ Para iniciar el servidor del gateway, ejecuta el siguiente comando:
 
 ```bash
 npm start
-
-El gateway se ejecutará en el puerto 4000 por defecto. Puedes cambiar el puerto modificando la variable PORT en el archivo index.js.
