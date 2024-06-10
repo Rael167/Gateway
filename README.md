@@ -7,4 +7,4 @@ Este proyecto es un gateway HTTP/HTTPS simple construido con Express.js y el mid
 Para iniciar el servidor del gateway, ejecuta el siguiente comando:
 
 ```bash
-npm start
+node gateway.js
